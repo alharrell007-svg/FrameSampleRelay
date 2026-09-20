@@ -1,0 +1,15 @@
+node_modules/
+video-tool.config.json
+lm-studio-entry.json
+add-to-lm-studio.html
+results/
+fixtures/
+*.log
+*.gguf
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.avi
+*.webm
+*.env
