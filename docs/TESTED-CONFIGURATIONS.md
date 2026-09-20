@@ -1,4 +1,4 @@
-> Historical evidence from the predecessor candidate (0.2.0-rc.1), preserved without rerunning all model combinations. These results are not new FrameSampleRelay rc.3 test runs. See [current validation](RELEASE-VALIDATION.md).
+> Historical evidence from the predecessor candidate (0.2.0-rc.1), preserved without rerunning all model combinations. These results are not new FrameSampleRelay rc.4 test runs. See [current validation](RELEASE-VALIDATION.md).
 
 # Tested configurations
 

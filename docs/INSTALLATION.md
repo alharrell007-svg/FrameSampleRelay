@@ -14,7 +14,7 @@ node cli.mjs setup --root "C:\VideoLibrary" --model "your-loaded-vision-model-id
 The video folder must exist. Add `--ffmpeg-dir "C:\Tools\ffmpeg\bin"` if necessary. Generated configuration, JSON and HTML contain local paths and must stay private.
 
 5. Run `node cli.mjs doctor --config video-tool.config.json`. Resolve errors until it reports `"ready": true`.
-6. Back up the current MCP configuration before installation. Open the generated `add-to-lm-studio.html` and click **Add to LM Studio**. Review the proposed **framesamplerelay** entry. The link's encoding is automated-tested. Human desktop handoff passed on rc.2; rc.3 retains the same setup implementation.
+6. Back up the current MCP configuration before installation. Open the generated `add-to-lm-studio.html` and click **Add to LM Studio**. Review the proposed **framesamplerelay** entry. The link's encoding is automated-tested. Human desktop handoff passed on rc.2; rc.4 retains the same setup implementation.
 7. If the button fails, use LM Studio's integrations panel → Install → Edit mcp.json. Merge only the `framesamplerelay` member from `lm-studio-entry.json` into the existing `mcpServers` object. Preserve every unrelated entry. Do not paste a second complete JSON document into that file.
 8. In a new test chat, enable **mcp/framesamplerelay** and your filesystem integration, restricted to the same video folder. Add the README routing instruction. Use one video-analysis integration in that test chat so results are attributable; preserve older integrations in other chats.
 9. Ask “What is in the video in my folder?” without giving a path or attaching a file. Confirm discovery followed by `analyze_video`, then a description. If several videos exist, asking which one is expected.

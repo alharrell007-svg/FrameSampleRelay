@@ -1,13 +1,15 @@
-# FrameSampleRelay 0.2.0-rc.3 validation
+# FrameSampleRelay 0.2.0-rc.4 validation
 
-This is a licensing, metadata, documentation and version update from rc.2. Server, setup and security logic are unchanged. Earlier evidence is retained separately, not represented as new rc.3 model tests.
+This is a repository-reference, documentation and version update from rc.3. Server, setup and security logic are unchanged. Earlier evidence is retained separately, not represented as new rc.4 model tests.
 
 ## Evidence and scope
 
 | Check | Result | Version / limits |
 |---|---|---|
-| Core/setup suite | 20/20 passed | Rerun on rc.3; includes MCP process restart, path checks and install-link encoding |
-| Media/failure suite | 17/17 passed | Rerun on rc.3; real FFmpeg with stubbed vision |
+| Core/setup suite | 20/20 passed | Rerun on rc.4; includes MCP process restart, path checks and install-link encoding |
+| Media/failure suite | 17/17 passed | Rerun on rc.4; real FFmpeg with stubbed vision |
+| Fresh ZIP installation | Setup and 20/20 tests passed | Separate extracted folder with spaces; generated JSON and installation-link encoding verified; no live MCP entry changed |
+| Live diagnostics | Not ready: specialist not loaded | Config and FFmpeg/ffprobe passed; configured Gemma identifier not loaded. No model or setting changed. Live ready-state not revalidated on rc.4 |
 | Live vision / chat-to-vision harness | 3/3 each | Inherited rc.2 Gemma specialist and Ministral-to-Gemma; synthetic discovery helper |
 | Desktop installation button | Passed | User-guided rc.2, separate integration; original preserved |
 | Fresh-chat natural language and real filesystem discovery | Passed | rc.2, discovered video inside permitted folder, then analyze_video |
@@ -17,9 +19,9 @@ This is a licensing, metadata, documentation and version update from rc.2. Serve
 | Boundary-call monitoring | No extraction or inference | Zero subprocess launches, HTTP/HTTPS requests and temporary analysis directories; counters positive-control checked |
 | Actual rc.2 ZIP privacy review | Passed | 23 files, no private media/configuration/logs/credentials; not a formal secret-detection proof |
 
-The outside-folder check did not weaken permissions or rely on chat-model refusal. It rejected the request before source copying, ffprobe, extraction or model metadata/inference requests. One initial observer-script Windows file-URL error was corrected; installed code was unchanged. rc.3 uses the identical server implementation.
+The outside-folder check did not weaken permissions or rely on chat-model refusal. It rejected the request before source copying, ffprobe, extraction or model metadata/inference requests. One initial observer-script Windows file-URL error was corrected; installed code was unchanged. rc.4 uses the identical server implementation.
 
-Final rc.3 archive privacy/inventory checks are recorded in the accompanying preparation report and checksum manifest. Personal screenshots, raw outputs and machine-specific configurations are excluded.
+Final rc.4 archive privacy/inventory checks are recorded in the accompanying preparation report and checksum manifest. Personal screenshots, raw outputs and machine-specific configurations are excluded.
 
 ## Inherited rc.2 live configurations
 
@@ -41,8 +43,9 @@ Gemma again invented thin black borders in the multiple-scenes fixture. Ministra
 
 ## Remaining limitations
 
+- Live model inference, desktop install/restart/uninstall/reinstall and the separately instrumented installed-candidate outside-folder test were not rerun on rc.4; their earlier results are inherited, not new passes.
 - Clean second-computer setup, Node 22 itself, macOS/Linux, additional models/codecs and adversarial filesystem races remain unverified.
 - The independent filesystem plugin's outside-folder listing denial is not established by the video-tool rejection test.
 - Prior host-API plugin invocation returned 403. Desktop success does not resolve that separate API permission path; no permissions were relaxed.
 - Sampled frames can miss events and cannot establish continuous motion or audio. Successful calls do not certify description accuracy.
-- GitHub private vulnerability reporting is planned, not configured or verified. Publication still requires explicit approval.
+- GitHub private vulnerability reporting is not enabled and is unavailable while the repository is private. Public visibility requires separate approval. Publication still requires explicit approval.

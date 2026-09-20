@@ -1,10 +1,10 @@
-# Community and proposed repository metadata
+# Community and repository metadata
 
 Project: **FrameSampleRelay**
 
 Subtitle: **Local Video Analysis from Sampled Frames for LM Studio**
 
-Approved destination (not created): `alharrell007-svg/framesamplerelay-lmstudio`
+Repository: [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay) — currently private for owner review. [Issues](https://github.com/alharrell007-svg/FrameSampleRelay/issues) and [release drafts](https://github.com/alharrell007-svg/FrameSampleRelay/releases) require authorized access.
 
 Project owner and contributor: Aaron Harrell. Copyright (c) 2026 Aaron Harrell. License: MIT.
 
@@ -24,8 +24,8 @@ Run the tests in [TESTING.md](TESTING.md) and include results with a proposed ch
 
 The intended security channel is GitHub private vulnerability reporting. It has not been configured or verified for this project. Follow [SECURITY.md](../SECURITY.md); do not post exploit details or private data publicly. No personal email address is provided.
 
-## Name check
+## Historical name check
 
-On September 19, 2026, the [npm registry lookup](https://registry.npmjs.org/framesamplerelay) returned 404 and [GitHub repository search](https://github.com/search?q=framesamplerelay-lmstudio&type=repositories) returned no matching repositories through its public API. Earlier basic public-web/package searches found no obvious exact-name collision for FrameSampleRelay. This is a practical snapshot, not reservation, publishability assurance or trademark clearance. GitHub repository names are scoped to their owner; the approved publishing account is `alharrell007-svg`. Recheck immediately before creating anything.
+On September 19, 2026, the [npm registry lookup](https://registry.npmjs.org/framesamplerelay) returned 404 and [GitHub repository search](https://github.com/search?q=framesamplerelay-lmstudio&type=repositories) returned no matching repositories through its public API. Earlier basic public-web/package searches found no obvious exact-name collision for FrameSampleRelay. This is a practical snapshot, not reservation, publishability assurance or trademark clearance. GitHub repository names are scoped to their owner; the approved publishing account is `alharrell007-svg`. That search used the earlier proposed repository name; it is historical evidence, not the current destination. The existing review repository is `alharrell007-svg/FrameSampleRelay`. No further repository creation is needed; registry publication would require a fresh availability check and separate approval.
 
 The project is independent and is not an official LM Studio product or endorsement.
