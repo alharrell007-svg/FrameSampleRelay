@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-export const VERSION = '0.2.0-rc.3';
+export const VERSION = '0.2.0-rc.4';
 export class ConfigError extends Error {}
 export async function findExecutable(name, explicit) {
   const executable = process.platform === 'win32' ? name + '.exe' : name;
