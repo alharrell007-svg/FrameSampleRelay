@@ -1,9 +1,17 @@
 # Release notes
 
-## 0.2.0-rc.3 — unpublished
+## 0.2.0-rc.4 — unpublished
+
+- Correct current repository metadata and documentation to alharrell007-svg/FrameSampleRelay, with accurate private-review issue and release links.
+- Replace obsolete repository-creation steps with review and separately authorized publication steps for the existing private repository and draft.
+- Clarify that private vulnerability reporting is unavailable while private and is not enabled.
+- Rerun core/setup, media/error, extracted installation and diagnostics checks; retain model/desktop evidence as inherited.
+- Change version metadata only; server, setup, model settings and security restrictions are unchanged. Preserve earlier archives.
+
+## 0.2.0-rc.3 — historical unpublished preparation
 
 - Apply MIT: Copyright (c) 2026 Aaron Harrell. Project owner and contributor: Aaron Harrell.
-- Record alharrell007-svg/framesamplerelay-lmstudio as the approved repository destination. No repository was created or package published.
+- At rc.3 preparation, recorded alharrell007-svg/framesamplerelay-lmstudio as the then-proposed repository destination; no repository had yet been created. Later private staging used alharrell007-svg/FrameSampleRelay. This historical entry is not current installation guidance.
 - Provide an email-free security policy planning GitHub private vulnerability reporting, explicitly pending configuration and verification.
 - Update validation with rc.2's successful desktop installation, natural-language discovery/analysis, normal close/reopen and uninstall/reinstall tests.
 - Record installed rc.2 outside-folder rejection before extraction/inference and actual rc.2 ZIP privacy review.

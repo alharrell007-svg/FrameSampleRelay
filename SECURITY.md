@@ -1,13 +1,11 @@
 # Security reporting
 
-The intended repository is alharrell007-svg/framesamplerelay-lmstudio. It has not been created as part of this release preparation. **GitHub private vulnerability reporting has not been configured or verified for this project.**
+The repository is [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay), currently private for owner review. **GitHub private vulnerability reporting is not enabled.** GitHub makes this feature available for public repositories; it is unavailable for this private review repository. A detected security-policy file does not mean private reporting is enabled.
 
-Once the repository exists and the feature is enabled, use its **Security → Advisories → Report a vulnerability** button to send a private report. Confirm that the form is private before submitting sensitive details. Do not post vulnerabilities, secrets, private videos or exploit instructions in public issues.
+Only after the owner separately authorizes public visibility may the maintainer enable the feature, verify its setting and private reporting form, and update this status. Until that verification, do not assume a private reporting channel exists. Do not post vulnerabilities, secrets, private videos or exploit instructions in public issues.
 
-If the button is unavailable, do not assume a private channel exists. A public request to enable private reporting should contain only that request, without vulnerability details. The maintainer must obtain the owner's approval before adding any alternative public contact field. No personal email contact is published.
+After enablement is verified, use **Security → Advisories → Report a vulnerability** and confirm the form is private before submitting sensitive details. If the button is unavailable, a request to enable reporting must contain no vulnerability details. Any alternative public contact field requires owner approval; no personal email contact is published. No response-time commitment is made for this prerelease project.
 
-The maintainer plans to enable the feature after repository creation is separately authorized, verify the setting and reporting form, and update this status only after verification. No response-time commitment is made for this prerelease project.
-
-This candidate is 0.2.0-rc.3. Broader supported-version or security-maintenance commitments have not been established. For runtime boundaries and privacy limitations, see [the security review](docs/SECURITY.md).
+This candidate is 0.2.0-rc.4. Broader supported-version or security-maintenance commitments have not been established. For runtime boundaries and privacy limitations, see [the security review](docs/SECURITY.md).
 
 [GitHub configuration instructions](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository).

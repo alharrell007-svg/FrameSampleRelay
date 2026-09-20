@@ -1,6 +1,6 @@
 {
   "name": "framesamplerelay",
-  "version": "0.2.0-rc.3",
+  "version": "0.2.0-rc.4",
   "description": "Local Video Analysis from Sampled Frames for LM Studio",
   "type": "module",
   "private": true,
@@ -35,6 +35,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alharrell007-svg/framesamplerelay-lmstudio.git"
+    "url": "https://github.com/alharrell007-svg/FrameSampleRelay.git"
   }
 }

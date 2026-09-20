@@ -2,13 +2,13 @@
 
 **Local Video Analysis from Sampled Frames for LM Studio**
 
-**Unpublished release candidate 0.2.0-rc.3. Windows tested; other operating systems unverified.**
+**Unpublished release candidate 0.2.0-rc.4. Windows tested; other operating systems unverified.**
 
 Ask your local assistant about a video without attaching it to the conversation. A filesystem tool finds the file; this MCP server samples images with FFmpeg, sends them to a separate vision model in LM Studio, and returns a short text description.
 
 The conversational model and the vision model have different jobs. A text-only conversational model can work if it makes correct tool calls. Only the specialist receiving the frames needs image support. Model selection is configurable; the implementation is not tied to one model family.
 
-The approved repository destination is `alharrell007-svg/framesamplerelay-lmstudio` (not created); the proposed package identifier is `framesamplerelay`. Neither has been published. See [release validation](docs/RELEASE-VALIDATION.md) for new results and remaining human checks.
+The repository is [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay), currently private for owner review. The proposed package identifier is `framesamplerelay`; no npm package or public release has been published. [Release drafts](https://github.com/alharrell007-svg/FrameSampleRelay/releases) are visible only to authorized repository users. See [release validation](docs/RELEASE-VALIDATION.md) for new results and remaining human checks.
 
 ## Requirements, in order
 
@@ -48,7 +48,7 @@ node cli.mjs doctor --config video-tool.config.json
 
 Look for `"ready": true`. Diagnostics omit folder paths, tokens, and model identifiers. LM Studio does not expose its app version through the model metadata used here; report it manually from About.
 
-6. Open the generated **add-to-lm-studio.html** file and click **Add to LM Studio**. It uses LM Studio's official MCP install-link format; review the proposed entry in the app. The button handoff passed human desktop testing on rc.2; rc.3 retains the same setup implementation. If it does not open LM Studio, use the manual JSON fallback: open **Developer → mcp.json** (or the integrations panel's **Edit mcp.json** command), back it up, and merge the **framesamplerelay** entry from the generated JSON into the existing `mcpServers` object. Preserve other entries. Save. Do not paste a second whole JSON document into an existing one.
+6. Open the generated **add-to-lm-studio.html** file and click **Add to LM Studio**. It uses LM Studio's official MCP install-link format; review the proposed entry in the app. The button handoff passed human desktop testing on rc.2; rc.4 retains the same setup implementation. If it does not open LM Studio, use the manual JSON fallback: open **Developer → mcp.json** (or the integrations panel's **Edit mcp.json** command), back it up, and merge the **framesamplerelay** entry from the generated JSON into the existing `mcpServers` object. Preserve other entries. Save. Do not paste a second whole JSON document into an existing one.
 7. In your chat, enable **mcp/framesamplerelay** and your folder-restricted filesystem integration. Add the routing instruction below to that chat's saved system prompt. Make sure the prompt and tool selections carry into any new chat or preset you use.
 
 [Official LM Studio MCP configuration instructions](https://lmstudio.ai/docs/app/mcp).
@@ -142,6 +142,6 @@ To uninstall, disable the integration, remove **only** its `framesamplerelay` en
 
 [Testing instructions](docs/TESTING.md) cover deterministic checks, synthetic fixtures, isolated orchestration, independent vision, and live end-to-end tests. Actual output quality requires human review.
 
-Use the templates in `.github/ISSUE_TEMPLATE` to report a tested configuration or bug. No public repository exists yet; for this candidate, retain reports locally until a reporting channel is available. For security reports, see [SECURITY.md](SECURITY.md). Include exact model filenames and quantization, OS, LM Studio version, runtime versions, repetition counts, errors, and manual interventions. Review diagnostic output and redact local paths and private data before sharing. Never attach personal videos, tokens, or conversation exports without deliberate consent.
+Use the templates in `.github/ISSUE_TEMPLATE` to report a tested configuration or bug. The repository is currently private. Authorized reviewers can use [Issues](https://github.com/alharrell007-svg/FrameSampleRelay/issues); other testers should retain reports locally until a public reporting channel is available. For security reports, see [SECURITY.md](SECURITY.md). Include exact model filenames and quantization, OS, LM Studio version, runtime versions, repetition counts, errors, and manual interventions. Review diagnostic output and redact local paths and private data before sharing. Never attach personal videos, tokens, or conversation exports without deliberate consent.
 
 Licensed under [MIT](LICENSE). Copyright (c) 2026 Aaron Harrell. Project owner and contributor: Aaron Harrell. Approved GitHub account: `alharrell007-svg`. No public security-reporting channel has been configured or verified yet; see [SECURITY.md](SECURITY.md). Bundled third-party binaries: **none**.
