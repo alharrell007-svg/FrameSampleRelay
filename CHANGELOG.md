@@ -1,6 +1,8 @@
 # Release notes
 
-## 0.2.0-rc.4 — unpublished
+## 0.2.0-rc.4 — published prerelease, September 21, 2026
+
+The repository is public and private vulnerability reporting is enabled. The following bullets describe preparation before publication; the approved release ZIP remains unchanged.
 
 - Correct current repository metadata and documentation to alharrell007-svg/FrameSampleRelay, with accurate private-review issue and release links.
 - Replace obsolete repository-creation steps with review and separately authorized publication steps for the existing private repository and draft.
