@@ -48,4 +48,4 @@ Gemma again invented thin black borders in the multiple-scenes fixture. Ministra
 - The independent filesystem plugin's outside-folder listing denial is not established by the video-tool rejection test.
 - Prior host-API plugin invocation returned 403. Desktop success does not resolve that separate API permission path; no permissions were relaxed.
 - Sampled frames can miss events and cannot establish continuous motion or audio. Successful calls do not certify description accuracy.
-- GitHub private vulnerability reporting is not enabled and is unavailable while the repository is private. Public visibility requires separate approval. Publication still requires explicit approval.
+- Publication status: [v0.2.0-rc.4](https://github.com/alharrell007-svg/FrameSampleRelay/releases/tag/v0.2.0-rc.4) is a public prerelease. GitHub private vulnerability reporting is enabled, verified September 21, 2026. This documentation update does not add runtime test evidence or modify the published ZIP.

@@ -37,4 +37,4 @@ Forced process termination or power loss can leave source copies/JPEGs in tempor
 
 Safe diagnostics omit paths, identifiers and token values. Compatibility tests deliberately retain exact outputs and paths in private result folders; they are not safe-to-share diagnostics. Scan any public release and human-review sanitized reports before publication.
 
-MIT and the owner attribution are approved. The repository is [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay), currently private for review. GitHub private vulnerability reporting is not enabled and is unavailable while the repository is private; enablement and verification must wait for separate public-visibility approval. See [reporting policy](../SECURITY.md). Do not post sensitive reproductions publicly.
+MIT and the owner attribution are approved. The repository is [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay), publicly available. GitHub private vulnerability reporting is enabled and was verified September 21, 2026. See [reporting policy](../SECURITY.md). Do not post sensitive reproductions publicly.

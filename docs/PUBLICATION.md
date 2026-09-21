@@ -1,4 +1,10 @@
-# Publication plan — private review only
+# Publication record and historical preparation checklist
+
+Published September 21, 2026: [v0.2.0-rc.4](https://github.com/alharrell007-svg/FrameSampleRelay/releases/tag/v0.2.0-rc.4). The repository is public and GitHub private vulnerability reporting is enabled and verified. The approved ZIP and checksum remain unchanged. No external announcements were made.
+
+The checklist below is retained as historical pre-publication documentation, not a current action plan. Statements about private visibility, draft status and pending approval describe that earlier stage.
+
+# Historical publication plan — before launch
 
 Approved identity: FrameSampleRelay — Local Video Analysis from Sampled Frames for LM Studio. Owner and contributor: Aaron Harrell. MIT, Copyright (c) 2026 Aaron Harrell. Repository: [alharrell007-svg/FrameSampleRelay](https://github.com/alharrell007-svg/FrameSampleRelay). Proposed npm identifier: framesamplerelay.
 

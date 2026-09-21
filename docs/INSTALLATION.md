@@ -1,6 +1,6 @@
 # Install, upgrade, and remove FrameSampleRelay
 
-This is an unpublished source candidate. Follow the [README](../README.md#requirements-in-order) for prerequisites and the complete command options. No npm installation is required. Keep the extracted folder in a permanent location.
+This is the published [v0.2.0-rc.4 source prerelease](https://github.com/alharrell007-svg/FrameSampleRelay/releases/tag/v0.2.0-rc.4). Follow the [README](../README.md#requirements-in-order) for prerequisites and the complete command options. No npm installation is required. Keep the extracted folder in a permanent location.
 
 1. Install Node.js and FFmpeg/ffprobe separately. Confirm each runs from your terminal.
 2. Start LM Studio's local API server. Load a vision-capable specialist and copy its exact API identifier. Leave your conversational model loaded if resources permit.

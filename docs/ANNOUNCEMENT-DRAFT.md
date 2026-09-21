@@ -1,4 +1,8 @@
-# First-release announcement draft — not posted
+# Historical announcement draft — not posted
+
+This document records an earlier preparation stage and is not an active publicity plan. No announcement is authorized or planned. The current GitHub repository is public, [v0.2.0-rc.4](https://github.com/alharrell007-svg/FrameSampleRelay/releases/tag/v0.2.0-rc.4) is a published prerelease, and private vulnerability reporting is enabled. The private/draft wording below describes the earlier stage and is preserved as history.
+
+## Earlier draft text
 
 FrameSampleRelay — Local Video Analysis from Sampled Frames for LM Studio
 

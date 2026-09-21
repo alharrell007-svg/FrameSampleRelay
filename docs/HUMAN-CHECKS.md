@@ -10,5 +10,5 @@ Remaining checks:
 2. If making a broader filesystem-integration security claim, test that integration's outside-folder listing restriction separately without weakening permissions.
 3. If requiring full-process restart evidence, verify process termination during a normal close/reopen when no other chat depends on it. Do not force-kill or unload models without consent.
 4. Retain output-quality limitations and known hallucinations. Do not claim audio or continuous-video understanding.
-5. Only after public visibility is separately authorized for the existing repository, configure and verify GitHub private vulnerability reporting before advertising it as available. If unavailable, ask the owner for an approved alternative; no email substitute is authorized.
-6. Review the exact final ZIP/checksum and authorize publication separately. MIT, copyright attribution and repository owner are already approved.
+5. Completed September 21, 2026: public visibility and prerelease publication authorized; GitHub private vulnerability reporting enabled and verified. No email substitute was added.
+6. Completed: the approved rc.4 ZIP/checksum was published unchanged as a prerelease. Remaining technical checks above remain unverified; publication does not imply they passed.
